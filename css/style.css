@@ -1,0 +1,26 @@
+:root {
+    --text-color: #212121;
+    --title-color: #FFFFFF;
+    --subtext-color: #757575;
+    --bg-color: #2F303A;
+    --subtitle-color: #2196F3;
+}
+.text {
+    color: var(--text-color);
+}
+.bg {
+    background-color: var(--bg-color);
+}
+.subtitle {
+    color: var(--subtitle-color);
+}
+.subtext {
+    color: var(--subtext-color);
+}
+.title {
+    color: var(--title-color);
+}
+.subtitle-bg {
+    background-color: var(--subtitle-color);
+    color: var(--title-color);
+}
