@@ -10,8 +10,8 @@
 .container {
   width: 1200px;
   outline: solid red;
-padding-right: 15px;
-padding-left: 15px;
+margin-right: 15px;
+margin-left: 15px;
 }
 /* header */
 .header {
