@@ -10,8 +10,9 @@
 .container {
   width: 1200px;
   outline: solid red;
-  margin-right: 15px;
-  margin-left: 15px;
+margin: 0 auto;
+padding-left: 15px;
+  padding-right: 15px;
 }
 /* header */
 .header {
@@ -109,14 +110,12 @@
 }
 .effective {
   background: var(--bg-color);
-  width: 1600px;
-  height: 600px;
-  flex-shrink: 0;
 }
 
 /* warning */
-.waring {
+.warning {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .warning-title {
@@ -168,7 +167,7 @@
 /* team */
 .team {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 124px;
 }
 
 .team-title {
@@ -212,9 +211,6 @@
 /* footer */
 .footer {
   background: var(--bg-color);
-  width: 1600px;
-  height: 252px;
-  flex-shrink: 0;
   padding-top: 60px;
   padding-bottom: 60px;
 }
