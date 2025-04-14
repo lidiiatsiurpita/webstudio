@@ -363,6 +363,7 @@
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
   margin-bottom: 20px;
 }
+
 .list-title {
   color: var(--text-color);
   font-family: Roboto;
