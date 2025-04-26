@@ -403,31 +403,31 @@
   padding-right: 22px;
 }
 
-.button-buttton:nth-child(Усі) {
+.button-list:nth-child(1) {
   flex-basis: 73px;
   height: 38px;
   flex-shrink: 0;
 }
 
-.button-buttton:nth-child(Веб-сайти) {
+.button-list:nth-child(2) {
   flex-basis: 125px;
   height: 38px;
   flex-shrink: 0;
 }
 
-.button-buttton:nth-child(Додатки) {
+.button-list:nth-child(3) {
   flex-basis: 112px;
   height: 38px;
   flex-shrink: 0;
 }
 
-.button-buttton:nth-child(Дизайн) {
+.button-list:nth-child(4) {
   flex-basis: 103px;
   height: 38px;
   flex-shrink: 0;
 }
 
-.button-buttton:nth-child(Маркетинг) {
+.button-list:nth-child(5) {
   flex-basis: 130px;
   height: 38px;
   flex-shrink: 0;
