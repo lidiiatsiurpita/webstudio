@@ -403,6 +403,36 @@
   padding-right: 22px;
 }
 
+.button-buttton:nth-child(Усі) {
+  flex-basis: 73px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.button-buttton:nth-child(Веб-сайти) {
+  flex-basis: 125px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.button-buttton:nth-child(Додатки) {
+  flex-basis: 112px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.button-buttton:nth-child(Дизайн) {
+  flex-basis: 103px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.button-buttton:nth-child(Маркетинг) {
+  flex-basis: 130px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
 /* list */
 
 .list {
@@ -417,7 +447,7 @@
 }
 
 .list-photo {
-  width: 370px;
+  flex-basis: 370px;
   height: 294px;
   flex-shrink: 0;
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
@@ -451,4 +481,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+.list-item {
+  width: 370px;
+  height: 404px;
+  flex-shrink: 0;
 }
