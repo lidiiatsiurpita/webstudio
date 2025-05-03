@@ -180,6 +180,7 @@
   text-transform: uppercase;
   width: 270px;
   margin-bottom: 10px;
+  padding-top: 30px;
 }
 
 .warning-text {
@@ -193,6 +194,66 @@
   width: 270px;
   height: 72px;
   flex-shrink: 0;
+}
+
+.warning-art1::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background: #f5f4fa;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/antenna.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px 70px;
+}
+
+.warning-art2::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background: #f5f4fa;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/clock.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px 70px;
+}
+
+.warning-art3::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background: #f5f4fa;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/diagram.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px 70px;
+}
+
+.warning-art4::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background: #f5f4fa;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/astronaut.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px 70px;
 }
 
 /* engaged */
