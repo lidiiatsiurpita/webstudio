@@ -6,11 +6,12 @@
   --subtitle-color: #2196f3;
   --text2-color: #000;
   --bg-color2: #f5f4fa;
+  --bg-color3: #fff;
 }
 
 .container {
   width: 1200px;
-  outline: solid red;
+  /* outline: solid red; */
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -21,6 +22,7 @@
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
+  background: var(--bg-color3);
 }
 
 .header-container {
@@ -110,6 +112,9 @@
   letter-spacing: 0.28px;
   display: flex;
 }
+.hr {
+  margin-top: 25px;
+}
 
 /* effective */
 
@@ -157,8 +162,12 @@
 
 .effective {
   background: var(--bg-color);
-
-  background-image: url("../images/effective.webp");
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/effective.webp");
   background-size: 1600px 600px;
   background-repeat: no-repeat;
 }
@@ -167,6 +176,7 @@
 
 .warning {
   padding-top: 94px;
+  background: var(--bg-color3);
 }
 
 .warning-list {
@@ -266,6 +276,7 @@
 .engaged {
   padding-top: 108px;
   padding-bottom: 94px;
+  background: var(--bg-color3);
 }
 
 .engaged-list {
@@ -437,6 +448,7 @@
 /* button */
 .button {
   padding-top: 94px;
+  background: var(--bg-color3);
 }
 
 .button-list {
@@ -510,6 +522,7 @@
 .list {
   padding-top: 50px;
   padding-bottom: 94px;
+  background: var(--bg-color3);
 }
 
 .list-box {
