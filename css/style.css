@@ -114,6 +114,17 @@
   display: flex;
 }
 
+.header-mail-photo{
+  width: 16px;
+height: 12px;
+}
+
+.header-tel-photo {
+width: 10px;
+height: 16px;
+margin-right: 10px;
+}
+
 /* effective */
 
 .effective {
