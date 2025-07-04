@@ -114,15 +114,15 @@
   display: flex;
 }
 
-.header-mail-photo{
+.header-mail-photo {
   width: 16px;
-height: 12px;
+  height: 12px;
 }
 
 .header-tel-photo {
-width: 10px;
-height: 16px;
-margin-right: 10px;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 /* effective */
@@ -377,14 +377,95 @@ margin-right: 10px;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
-  padding-bottom: 30px;
+  margin-bottom: 28px;
+}
+
+.team-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.team-icon:hover {
+  width: 20px;
+  height: 20px;
+  fill: var(--title-color);
+}
+
+.team-list2 {
+  display: flex;
+  gap: 34px;
+  margin-left: 44px;
+  margin-right: 42px;
+  margin-bottom: 30px;
+}
+
+/* customers */
+
+.customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--bg-color3);
+}
+
+.customers-title {
+  color: #212121;
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+
+.customers-item {
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  width: 170px;
+  height: 92px;
+  padding-left: 32px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-top: 16px;
+}
+
+.customers-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
+.customers-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.customers-item:hover {
+  border-radius: 4px;
+  border: 1px solid #2196f3;
+  width: 170px;
+  height: 92px;
+  padding-left: 32px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-top: 16px;
+}
+
+.customers-icon:hover {
+  width: 106px;
+  height: 60px;
+  fill: #2196f3;
 }
 
 /* footer */
 
 .footer {
   background: var(--bg-color);
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -401,6 +482,7 @@ margin-right: 10px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+  padding-top: 60px;
 }
 
 .footer-span {
@@ -453,6 +535,56 @@ margin-right: 10px;
   width: 231px;
   height: 21px;
   flex-shrink: 0;
+}
+
+.footer-text {
+  color: #fff;
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-top: 72px;
+}
+
+.footer-lists {
+  display: flex;
+  gap: 70px;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--title-color);
+}
+
+.footer-list3 {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-item3 {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-item3:hover {
+  width: 44px;
+  height: 44px;
+  background-color: #2196f3;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* button */
