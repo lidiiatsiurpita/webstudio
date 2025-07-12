@@ -114,15 +114,43 @@
   display: flex;
 }
 
-.header-mail-photo {
+.header-list2 {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-mail-icon {
+  margin-right: 10px;
+  fill: currentColor;
   width: 16px;
   height: 12px;
 }
 
-.header-tel-photo {
+.header-contact {
+  color: #757575;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: #2196f3;
+}
+
+.header-tel-icon {
+  margin-right: 10px;
+  fill: currentColor;
   width: 10px;
   height: 16px;
-  margin-right: 10px;
 }
 
 /* effective */
@@ -383,21 +411,37 @@
 .team-icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
-}
-
-.team-icon:hover {
-  width: 20px;
-  height: 20px;
-  fill: var(--title-color);
 }
 
 .team-list2 {
   display: flex;
-  gap: 34px;
-  margin-left: 44px;
-  margin-right: 42px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.team-link2 {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffffff;
   margin-bottom: 30px;
+  fill: #afb1b8;
+}
+
+.team-link2:hover,
+.team-link2:focus {
+  background-color: #2196f3;
+}
+
+.team-link2:hover,
+.team-icon:hover,
+.team-link2:focus,
+.team-icon:focus {
+  fill: #ffffff;
 }
 
 /* customers */
